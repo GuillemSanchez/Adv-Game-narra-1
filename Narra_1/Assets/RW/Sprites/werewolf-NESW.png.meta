@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: 140a1ce079e684a418015802c3f077a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4276490075879625548
+    second: werewolf-NESW_0
+  - first:
+      213: -1946819318918417926
+    second: werewolf-NESW_1
+  - first:
+      213: 7920871921498386465
+    second: werewolf-NESW_2
+  - first:
+      213: 2429795382148645551
+    second: werewolf-NESW_3
+  - first:
+      213: -5473377944523309918
+    second: werewolf-NESW_4
+  - first:
+      213: 5548072929399656700
+    second: werewolf-NESW_5
+  - first:
+      213: -434532277563882525
+    second: werewolf-NESW_6
+  - first:
+      213: -3955897099003380881
+    second: werewolf-NESW_7
+  - first:
+      213: 3024127027940651545
+    second: werewolf-NESW_8
+  - first:
+      213: 6020200463980860502
+    second: werewolf-NESW_9
+  - first:
+      213: -6482005307593117539
+    second: werewolf-NESW_10
+  - first:
+      213: 8227200357191897165
+    second: werewolf-NESW_11
+  - first:
+      213: 4173194447900633680
+    second: werewolf-NESW_0
+  - first:
+      213: -9182009139128195252
+    second: werewolf-NESW_1
+  - first:
+      213: 7840179642779325571
+    second: werewolf-NESW_2
+  - first:
+      213: -6885003489667774344
+    second: werewolf-NESW_3
+  - first:
+      213: -7237426103349352359
+    second: werewolf-NESW_4
+  - first:
+      213: -2581738974219336077
+    second: werewolf-NESW_5
+  - first:
+      213: 6926230035017515321
+    second: werewolf-NESW_6
+  - first:
+      213: 2768510714899452328
+    second: werewolf-NESW_7
+  - first:
+      213: -5769162555008441636
+    second: werewolf-NESW_8
+  - first:
+      213: 6447632002153931116
+    second: werewolf-NESW_9
+  - first:
+      213: 5547573359048775460
+    second: werewolf-NESW_10
+  - first:
+      213: 816321380267533786
+    second: werewolf-NESW_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: werewolf-NESW_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 193
+        width: 25
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05aefb56d3a2ae930800000000000000
+      internalID: 4173194447900633680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 195
+        width: 26
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47afd91653f29080800000000000000
+      internalID: -9182009139128195252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 193
+        width: 25
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3845c1798d9edcc60800000000000000
+      internalID: 7840179642779325571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 129
+        width: 25
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8780701fdcd8370a0800000000000000
+      internalID: -6885003489667774344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 131
+        width: 23
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958e8b5fd4f7f8b90800000000000000
+      internalID: -7237426103349352359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 129
+        width: 24
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37600e2e412db2cd0800000000000000
+      internalID: -2581738974219336077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 65
+        width: 24
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9314cd52589ee1060800000000000000
+      internalID: 6926230035017515321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 67
+        width: 26
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1d176b3d9bb6620800000000000000
+      internalID: 2768510714899452328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_8
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 65
+        width: 24
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2ac39f831dfefa0800000000000000
+      internalID: -5769162555008441636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 24
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6163da15279a7950800000000000000
+      internalID: 6447632002153931116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 3
+        width: 23
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427d587e390fcfc40800000000000000
+      internalID: 5547573359048775460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1
+        width: 25
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5276568f7245b00800000000000000
+      internalID: 816321380267533786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
