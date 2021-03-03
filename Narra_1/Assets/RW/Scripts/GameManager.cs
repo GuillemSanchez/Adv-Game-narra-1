@@ -34,8 +34,72 @@ using RayWenderlich.KQClone.Utilities;
 
 namespace RayWenderlich.KQClone.Core
 {
+    [System.Serializable]
+    public struct InteractableObjectLink
+    {
+        public string[] names;
+        public InteractableObject interactableObject;
+    }
+
     public class GameManager : MonoBehaviour
     {
+       
+
+        [SerializeField] private InteractableObjectLink[] objectArray = null;
+        private UIManager uiManager;
+        private Dictionary<string, InteractableObject> sceneDictionary;
+
+        public void ExecuteCommand(string command)
+        {
+            var parsedCommand = CommandParser.Parse(command);
+
+            //1
+            if (string.IsNullOrEmpty(parsedCommand.verb))
+            {
+                uiManager.ShowPopup("Enter a valid command.");
+                return;
+            }
+
+            if (string.IsNullOrEmpty(parsedCommand.primaryEntity))
+            {
+                uiManager.ShowPopup("You need to be more specific.");
+                return;
+            }
+
+            if (sceneDictionary.ContainsKey(parsedCommand.primaryEntity))
+            {
+                //3
+                var sceneObject = sceneDictionary[parsedCommand.primaryEntity];
+                if (sceneObject.IsAvailable)
+                {
+                    if (parsedCommand.verb == "look") uiManager.ShowPopup(sceneObject.LookDialogue);
+                    else uiManager.ShowPopup(sceneObject.ExecuteAction(parsedCommand.verb));
+                }
+                else
+                {
+                    uiManager.ShowPopup("You can't do that - atleast not now.");
+                }
+            }
+            else
+            {
+                //2
+                uiManager.ShowPopup($"I don't understand '{parsedCommand.primaryEntity}'.");
+            }
+        }
+
+        private void Awake()
+        {
+            uiManager = GameManager.FindObjectOfType<UIManager>();
+            sceneDictionary = new Dictionary<string, InteractableObject>();
+            foreach (var item in objectArray)
+            {
+                foreach (var name in item.names)
+                {
+                    sceneDictionary.Add(name.ToLowerInvariant().Trim(), item.interactableObject);
+                }
+            }
+        }
+
 
     }
 }

@@ -32,8 +32,58 @@ using System.Collections.Generic;
 
 namespace RayWenderlich.KQClone.Utilities
 {
+    public struct ParsedCommand
+    {
+        public string verb;
+        public string primaryEntity;
+        public string secondaryEntity;
+    }
+
     public static class CommandParser
     {
-        
+        private static readonly string[] Verbs = { "get", "look", "pick", "pull", "push" };
+        private static readonly string[] Prepositions = { "to", "at", "up", "into", "using", "with" };
+        private static readonly string[] Articles = { "a", "an", "the" };
+
+        //2
+        public static ParsedCommand Parse(string command)
+        {
+            var pCmd = new ParsedCommand();
+            var words = new Queue<string>(command.ToLowerInvariant().
+                Split(new[] { ' ' }, System.StringSplitOptions.RemoveEmptyEntries));
+
+            try
+            {
+                if (Verbs.Contains(words.Peek())) pCmd.verb = words.Dequeue();
+
+                if (Prepositions.Contains(words.Peek())) words.Dequeue();
+
+                if (Articles.Contains(words.Peek())) words.Dequeue();
+
+                pCmd.primaryEntity = words.Dequeue();
+                while (!Prepositions.Contains(words.Peek()))
+                    pCmd.primaryEntity = $"{pCmd.primaryEntity} {words.Dequeue()}";
+                words.Dequeue();
+
+                if (Articles.Contains(words.Peek())) words.Dequeue();
+
+                pCmd.secondaryEntity = words.Dequeue();
+                while (words.Count > 0)
+                    pCmd.secondaryEntity = $"{pCmd.secondaryEntity} {words.Dequeue()}";
+            }
+            catch (System.InvalidOperationException)
+            {
+                return pCmd;
+            }
+
+            return pCmd;
+        }
+
+        //1
+        public static bool Contains(this string[] array, string element)
+        {
+            return System.Array.IndexOf(array, element) != -1;
+        }
+
     }
 }
